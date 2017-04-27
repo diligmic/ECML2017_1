@@ -17,3 +17,14 @@ Code and data to replicate the experiments presented in the paper "Learning Luka
  4) Eval  
     cat baseline/ll1-*/results/test_results.dat | SBRS_7.0/scripts/proteins/test.pl
     cat convex_luk/ll1-*/results/test_results.dat | SBRS_7.0/scripts/proteins/test.pl
+    
+    
+    
+# Toy Problem
+1) Open the Matlab file training_sets.mat to load the training sets used in the paper.
+
+2) Run the script ex1.m to get the optimal solution to the problem. From this file you can manage the different constraints you want to take into account in the learning problem.
+
+3) Run the script print.m to visualize the task functions you got which best fit the constraints.
+
+Instructions and useful comments are reported on the top of such scripts.
